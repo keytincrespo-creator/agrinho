@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoAgro 🌿🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="logo">EcoAgro 🧑‍🌾🌱</div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#pilares">Pilares</a>
+            <a href="#interativo">Quiz</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>O Futuro da Agricultura é <span class="txt-rosa">Sustentável</span> 🌎</h1>
+            <p>Cultivando o hoje, protegendo o amanhã. Descubra como a tecnologia e a natureza caminham juntas! 🌸💚</p>
+            <a href="#interativo" class="btn-principal">Testar Conhecimento 🧠</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="cards-section">
+        <h2>Nossos Pilares 🌿</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="icon">💧</div>
+                <h3>Uso da Água</h3>
+                <p>Irrigação gota a gota e captação da chuva para evitar o desperdício.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🐝</div>
+                <h3>Biodiversidade</h3>
+                <p>Proteger os polinizadores e rotacionar culturas para solo vivo e forte.</p>
+            </div>
+            <div class="card">
+                <div class="icon">☀️</div>
+                <h3>Energia Limpa</h3>
+                <p>Fazendas movidas a energia solar e biomassa de forma inteligente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="interativo" class="quiz-section">
+        <div class="quiz-box">
+            <h2>Desafio Agro-Sustentável 🌸</h2>
+            <p id="pergunta">O que é rotação de culturas? 🤔</p>
+            
+            <div class="quiz-options">
+                <button class="btn-opcao" onclick="verificarResposta(false)">Alternar a cor das plantas para estética</button>
+                <button class="btn-opcao" onclick="verificarResposta(true)">Alternar as espécies plantadas para recuperar o solo</button>
+                <button class="btn-opcao" onclick="verificarResposta(false)">Plantar tudo no mesmo dia</button>
+            </div>
+
+            <p id="resultado-quiz"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Feito com 💚, 🌸 e código no VS Code — 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
